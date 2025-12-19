@@ -198,5 +198,34 @@ body{
     font-size:20px;
     font-weight:bold;
 }
+#forma{
+    padding:0px 150px;
+    margin:65px 0px;
+    float:left;
+}
+#forma input,button,textarea{
+    display:block;
+    font-size:16px;
+    padding:12px;
+    margin:5px 0px;
+
+}
+#forma input,textarea{
+    width:500px;
+    font-family: "Roboto", sans-serif;
+}
+#forma label{
+    font-family: "Roboto", sans-serif;
+}
+#mapa{
+    float:right;
+    width:500px;
+    height:335px;
+    margin-right:150px;
+    margin-top:65px;
+    border:0px;
+}
+
+
 
 
