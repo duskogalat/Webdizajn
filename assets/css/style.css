@@ -2,6 +2,9 @@
     margin:0px;
     padding:0px;
 }
+body{
+     background-color:#d6d6d6;
+}
 .cleaner{
     clear:both;
 }
@@ -60,10 +63,9 @@
     border-radius:20px;
 }
 #sekcija2{
-    background-color:#d6d6d6;
     padding:20px 150px;
 }
-#podnaslov{
+.podnaslov{
     font-family: "Roboto", sans-serif;
     text-align:center;
     font-size:28px;
@@ -87,7 +89,7 @@
     font-family: "Secular One", sans-serif;
 }
 #sekcija3{
-    background-color:#d6d6d6;
+
     padding:10px 150px;
 }
 #sekcija3 h2{
@@ -122,6 +124,7 @@
     height:250px;
     display:flex;
     justify-content: space-between;
+
 }
 #logoFooter img{
     width:250px;
@@ -140,7 +143,7 @@
 #meniFooter ul li a{    
     text-decoration: none;
     color:#ffffff;
-     font-family: "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 #lista{
     margin:auto 0px;
@@ -155,4 +158,45 @@
     color:#ffffff;
     font-size:24px;
 }
+#naslov{
+    font-family: "Secular One", sans-serif;
+    text-align:center;
+    font-size:40px;
+    margin:10px 0px;
+}
+.crvena{
+    color:#cc3d3d
+}
+#region3{
+    display:flex;
+    padding:0px 150px;
+    justify-content:space-between;
+}
+.kontejner3 img{
+    border-radius: 10px;
+    height:330px;
+    width:350px;
+    object-fit: cover;
+}
+.kontejner3 {
+    max-width:350px;
+    font-family: "Roboto", sans-serif;
+    background-color:#ffffff;
+    padding:10px;
+    border-radius: 10px;
+}
+.kontejner3 p{
+    margin:10px 0px;
+}
+.datumR{
+    float:left;
+}
+.cena{
+    float:right;
+}
+.tekst2{
+    font-size:20px;
+    font-weight:bold;
+}
+
 
