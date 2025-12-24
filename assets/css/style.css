@@ -3,7 +3,16 @@
     padding:0px;
 }
 body{
-     background-color:#d6d6d6;
+    background-color:#d6d6d6;
+    font-family: "Roboto", sans-serif;
+    font-weight:450;
+}
+h2{
+    font-size: 2em;
+}
+h3{
+    font-family: "Secular One", sans-serif;
+    font-size:1.5em;
 }
 .cleaner{
     clear:both;
@@ -29,7 +38,16 @@ body{
 #header ul li a{
     text-decoration:none;
     color:#ffffff;
-    font-family: "Roboto", sans-serif;
+    transition:color 0.5s ease;
+}
+#header ul li a:hover{
+    color:#a3a3a3;
+}
+.aktivan{
+    background-color: #cc3d3d;
+    color:#ffffff;
+    padding:12px;
+    border-radius:20px;
 }
 #prvi{
     padding:0px 150px;
@@ -40,14 +58,11 @@ body{
     height:610px;
 }
 #prvi h1{
-    font-family: "Roboto", sans-serif;
     font-size:48px;
     max-width:650px;
     padding-top:80px;
 }
 #prvi p{
-    font-family: "Roboto", sans-serif;
-    font-size:20px;
     max-width:580px;
     margin:16px 0px;
 }
@@ -61,14 +76,18 @@ body{
     width:max-content;
     text-decoration:none;
     border-radius:20px;
+    transition: transform 0.5s ease;
+}
+#button:hover{
+    background-color:#ca4a4a;
+    transform:scale(1.1);
 }
 #sekcija2{
     padding:20px 150px;
+    margin-top:80px;
 }
 .podnaslov{
-    font-family: "Roboto", sans-serif;
     text-align:center;
-    font-size:28px;
 }
 #drugi{
    padding:30px 0px;
@@ -79,34 +98,32 @@ body{
     width:270px;
     background-color:#ffffff;
     border-radius:20px;
-    padding:10px;
+    padding:0px 10px;
 }
 .kontejner1 h3{
-    font-family: "Secular One", sans-serif;
-    color:#2380b1
+    color:#2380b1;
+    margin:10px 0px;
 }
 .kontejner1 p{
-    font-family: "Secular One", sans-serif;
+    margin:10px 0px;
 }
 #sekcija3{
-
     padding:10px 150px;
-}
-#sekcija3 h2{
-    font-family: "Roboto", sans-serif;
+    margin-bottom:80px;
 }
 .kontejner2{
     width:700px;
+    height:fit-content;
     border-radius:20px;
     background-color:#ffffff;
     margin-top:20px;
-    padding:10px;
+    padding:5px 10px;
 }
 .kontejner2 h3{
-    font-family: "Secular One", sans-serif;
+    margin:10px px;
 }
 .kontejner2 p{
-    font-family: "Secular One", sans-serif;
+    margin:10px 0px;
 }
 #region1 {
     float:left;
@@ -116,7 +133,10 @@ body{
 }
 #region2 img{
     width:370px;
+    height:355px;
     border-radius:20px;
+    object-fit:cover;
+    margin-top:20px;
 }
 #footer{
     background-color:#000000;
@@ -124,13 +144,14 @@ body{
     height:250px;
     display:flex;
     justify-content: space-between;
-
 }
 #logoFooter img{
     width:250px;
+    max-height:100%;
+    object-fit: cover;
+    object-position:30% 30%;
 }
 #kontakt{
-    font-family: "Roboto", sans-serif;
     color:#ffffff;
     margin:auto 0px;
 }
@@ -143,7 +164,6 @@ body{
 #meniFooter ul li a{    
     text-decoration: none;
     color:#ffffff;
-    font-family: "Roboto", sans-serif;
 }
 #lista{
     margin:auto 0px;
@@ -164,6 +184,9 @@ body{
     font-size:40px;
     margin:10px 0px;
 }
+.podnaslov{
+    margin-top:80px;
+}
 .crvena{
     color:#cc3d3d
 }
@@ -171,6 +194,7 @@ body{
     display:flex;
     padding:0px 150px;
     justify-content:space-between;
+    margin:80px 0px;
 }
 .kontejner3 img{
     border-radius: 10px;
@@ -180,7 +204,6 @@ body{
 }
 .kontejner3 {
     max-width:350px;
-    font-family: "Roboto", sans-serif;
     background-color:#ffffff;
     padding:10px;
     border-radius: 10px;
@@ -212,10 +235,23 @@ body{
 }
 #forma input,textarea{
     width:500px;
-    font-family: "Roboto", sans-serif;
+    border-radius:10px;
+    border:0px;
 }
-#forma label{
-    font-family: "Roboto", sans-serif;
+#forma input[type=submit]{
+    background-color: #cc3d3d; 
+    border-radius: 10px;
+    color:#ffffff;
+    width:200px;
+    margin:20px 0px;
+    transition:transform 0.5s ease;   
+}
+#forma input[type=submit]:hover{
+    background-color:#ca4a4a;
+    transform: scale(1.1);
+}
+label{
+    font-size:20px;
 }
 #mapa{
     float:right;
@@ -224,9 +260,9 @@ body{
     margin-right:150px;
     margin-top:65px;
     border:0px;
+    border-radius:20px;
 }
 #naslov1{
-     font-family: "Roboto", sans-serif;
      text-align:center;
      margin:30px 0px;
 }
@@ -235,15 +271,20 @@ body{
     display:flex;
     justify-content:space-between;
     align-items: center;
+    margin-bottom:50px;
 }
 #kontejner4 img{
     width:400px;
+    height:500px;
+    object-fit: cover;
+    object-position:20% 20%;
+    border-radius: 20px;
 }
 #podkontejner4 {
     max-width: 600px;
-    font-family: "Secular One", sans-serif;
-    font-size:1.5em;
-
+}
+#podkontejner4 p,h2{
+    margin:20px 0px;
 }
 
 
